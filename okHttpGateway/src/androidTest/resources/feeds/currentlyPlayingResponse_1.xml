@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<onAir>
+    <epgData>
+        <epgItem name="The Racket" description="Taking you into the diverse, the soulful and the aggressive realms of heavy metal music."
+                 duration="03:00:00"
+                 id="230" presenter="" time="2018-02-06T22:00:00+11:00">
+            <customFields>
+                <customField name="image320" value="http://www.abc.net.au/triplej/programs/img/2017/theracket/320.jpg" />
+                <customField name="displayTime" value="Tuesdays 10pm-1am" />
+                <customField name="image640" value="http://www.abc.net.au/triplej/programs/img/2017/theracket/640.jpg" />
+                <customField name="image70" value="http://www.abc.net.au/triplej/programs/img/2017/theracket/70.jpg" />
+                <customField name="image50" value="http://www.abc.net.au/triplej/programs/img/2017/theracket/50.jpg" />
+            </customFields>
+        </epgItem>
+    </epgData>
+    <playoutData>
+        <playoutItem album="Prophets of Rage" artist="Prophets of Rage" duration="00:03:48" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/2c13bb113b574853ee36c66cff2c3c5e8513.jpg"
+                     status="playing" time="2018-02-06T22:45:34+11:00" title="Living On The 110"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Prophets of Rage" artist="Prophets of Rage" duration="00:04:08" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/2c13bb113b574853ee36c66cff2c3c5e1844.jpg"
+                     status="history" time="2018-02-06T22:34:08+11:00" title="Hail To The Chief"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Prophets of Rage" artist="Prophets of Rage" duration="00:04:10" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/2c13bb113b574853ee36c66cff2c3c5e9292.jpg"
+                     status="history" time="2018-02-06T22:24:31+11:00" title="Unfuck The World"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="" artist="Anthrax &amp; Public Enemy" duration="00:03:33" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/eb82bdd7d934496894a3f5e4cdafd3b47601.jpg"
+                     status="history" time="2018-02-06T22:16:57+11:00" title="Bring The Noise"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Skull &amp; Bones" artist="Cypress Hill" duration="00:04:36" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/dd97f670350721fb17b1927b971fe9424740.jpg"
+                     status="history" time="2018-02-06T22:11:38+11:00" title="(Rock) Superstar"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Rage Against The Machine" artist="Rage Against The Machine" duration="00:05:14" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/63f1190f60a603a1a10d6c44e2600ecb4285.jpg"
+                     status="history" time="2018-02-06T22:06:34+11:00" title="Killing In The Name"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Follow The Leader" artist="Korn" duration="00:03:49" imageUrl="http://abc-radio-img.s3.amazonaws.com/playlist/50a3bb7796ba78ff6a63d0109796282b9786.jpg" status="history"
+                     time="2018-02-06T22:01:35+11:00" title="Got The Life"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Collide {Single}" artist="Odette" duration="00:03:41" imageUrl="http://www.abc.net.au/triplej/albums/56454/covers/190.jpg" status="history"
+                     time="2018-02-06T21:56:11+11:00" title="Collide" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Neon {Single}" artist="Stateside" duration="00:03:49" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg" status="history"
+                     time="2018-02-06T21:52:36+11:00" title="Neon" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Cognitive Dissonance" artist="Jacquie Lomas" duration="00:03:45" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T21:47:44+11:00" title="Like An Empire"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Blend Inn" artist="Hockey Dad" duration="00:03:38" imageUrl="http://www.abc.net.au/triplej/albums/56552/covers/190.jpg" status="history"
+                     time="2018-02-06T21:44:00+11:00" title="I Wanna Be Everybody" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="You Let My Tyres Down {Single}" artist="Tropical Fuck Storm" duration="00:04:58" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T21:37:52+11:00" title="You Let My Tyres Down"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="If I Have To {Single}" artist="Siyoni" duration="00:03:57" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T21:28:46+11:00" title="If I Have To {Ft. Nyne/I Am D}"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Confidence {Single}" artist="Ocean Alley" duration="00:04:13" imageUrl="http://www.abc.net.au/triplej/albums/56592/covers/190.jpg"
+                     status="history" time="2018-02-06T21:24:05+11:00" title="Confidence"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Violence Broken {Single}" artist="No Mono" duration="00:04:38" imageUrl="http://www.abc.net.au/triplej/albums/56475/covers/190.jpg"
+                     status="history" time="2018-02-06T21:17:11+11:00" title="Violence Broken"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Leave Your Heart {Single}" artist="Braille Face" duration="00:03:28" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T21:13:45+11:00" title="Leave Your Heart"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Ngarrukwujenama {Single}" artist="Emily Wurramara" duration="00:03:36" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T21:08:52+11:00" title="Ngarrukwujenama"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Overwhelming Care" artist="Pat Chow" duration="00:02:58" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg" status="history"
+                     time="2018-02-06T21:05:03+11:00" title="No Strings" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Savage {Single}" artist="Jesswar" duration="00:03:13" imageUrl="http://www.abc.net.au/triplej/albums/56469/covers/190.jpg" status="history"
+                     time="2018-02-06T21:00:01+11:00" title="Savage" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Don't Want Anyone" artist="Super Duper" duration="00:04:32" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg"
+                     status="history" time="2018-02-06T20:53:31+11:00" title="Don't Want Anyone"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+    </playoutData>
+
+</onAir>

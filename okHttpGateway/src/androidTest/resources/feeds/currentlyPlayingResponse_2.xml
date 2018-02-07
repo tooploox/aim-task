@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<onAir>
+    <epgData>
+        <epgItem name="Good Nights" description="Choose your own adventure with Bridget Hustwaite on Good Nights! Hit her up with requests and settle in as she shows off the hottest new releases, exclusive premieres, and get your daily fix of what's going on in the music world."
+                 duration="03:00:00"
+                 id="163" presenter="" time="2018-02-07T18:00:00+11:00">
+            <customFields>
+                <customField name="image320" value="http://www.abc.net.au/triplej/programs/img/2017/bridget_hustwaite/320.jpg" />
+                <customField name="displayTime" value="Mon-Fri 6-9pm" />
+                <customField name="image640" value="http://www.abc.net.au/triplej/programs/img/2017/bridget_hustwaite/640.jpg" />
+                <customField name="image70" value="http://www.abc.net.au/triplej/programs/img/2017/bridget_hustwaite/70.jpg" />
+                <customField name="image50" value="http://www.abc.net.au/triplej/programs/img/2017/bridget_hustwaite/50.jpg" />
+            </customFields>
+        </epgItem>
+    </epgData>
+    <playoutData>
+        <playoutItem album="Visions Of A Life" artist="Wolf Alice" duration="00:02:25" imageUrl="http://www.abc.net.au/triplej/albums/56336/covers/190.jpg"
+                     status="playing" time="2018-02-07T18:39:46+11:00" title="Space &amp; Time"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="All I Need {Single}" artist="Anfa Rose" duration="00:03:51" imageUrl="http://www.abc.net.au/triplej/albums/56569/covers/190.jpg"
+                     status="history" time="2018-02-07T18:31:56+11:00" title="All I Need {Ft. Manu Crook$}"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Hunger {Single}" artist="Tia Gostelow" duration="00:04:04" imageUrl="http://www.abc.net.au/triplej/albums/56408/covers/190.jpg" status="history"
+                     time="2018-02-07T18:27:24+11:00" title="Hunger" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Currents B-Sides &amp; Remixes" artist="Tame Impala" duration="00:04:46" imageUrl="http://www.abc.net.au/triplej/albums/56464/covers/190.jpg"
+                     status="history" time="2018-02-07T18:22:49+11:00" title="Taxi's Here"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="
+" artist="Riton &amp; Kah-Lo" duration="00:04:07" imageUrl="http://www.abc.net.au/triplej/albums/default/covers/190.jpg" status="history" time="2018-02-07T18:17:11+11:00" title="Fake ID" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="I Love You Like A Brother" artist="Alex Lahey" duration="00:03:59" imageUrl="http://www.abc.net.au/triplej/albums/56309/covers/190.jpg"
+                     status="history" time="2018-02-07T18:11:48+11:00" title="Lotto In Reverse"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Twin Fantasy" artist="Car Seat Headrest" duration="00:03:30" imageUrl="http://www.abc.net.au/triplej/albums/56562/covers/190.jpg"
+                     status="history" time="2018-02-07T18:08:24+11:00" title="Nervous Young Inhumans" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Luv Is Rage 2" artist="Lil Uzi Vert" duration="00:03:36" imageUrl="http://www.abc.net.au/triplej/albums/56388/covers/190.jpg"
+                     status="history" time="2018-02-07T18:04:40+11:00" title="The Way Life Goes"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Million Man {Single}" artist="The Rubens" duration="00:03:11" imageUrl="http://www.abc.net.au/triplej/albums/56381/covers/190.jpg"
+                     status="history" time="2018-02-07T17:26:28+11:00" title="Million Man"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="To Be Free {Single}" artist="L D R U" duration="00:03:14" imageUrl="http://www.abc.net.au/triplej/albums/55726/covers/190.jpg" status="history"
+                     time="2018-02-07T17:23:35+11:00" title="To Be Free" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Scary Hours {EP}" artist="Drake" duration="00:03:17" imageUrl="http://www.abc.net.au/triplej/albums/56573/covers/190.jpg" status="history"
+                     time="2018-02-07T17:19:01+11:00" title="God's Plan" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Bloody Lovely" artist="DZ Deathrays" duration="00:03:42" imageUrl="http://www.abc.net.au/triplej/albums/56576/covers/190.jpg" status="history"
+                     time="2018-02-07T17:14:50+11:00" title="Like People" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="BADLANDS" artist="Halsey" duration="00:03:20" imageUrl="http://www.abc.net.au/triplej/albums/53992/covers/190.jpg" status="history"
+                     time="2018-02-07T17:08:45+11:00" title="Hold Me Down" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Sacred Hearts Club" artist="Foster The People" duration="00:04:02" imageUrl="http://www.abc.net.au/triplej/albums/56188/covers/190.jpg"
+                     status="history" time="2018-02-07T17:04:52+11:00" title="Sit Next To Me"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="More Scared Of You Than You Are Of Me" artist="The Smith Street Band" duration="00:03:29" imageUrl="http://www.abc.net.au/triplej/albums/55462/covers/190.jpg"
+                     status="history" time="2018-02-07T16:56:14+11:00" title="Death To The Lads"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Not All The Beautiful Things" artist="What So Not" duration="00:03:34" imageUrl="http://www.abc.net.au/triplej/albums/56580/covers/190.jpg"
+                     status="history" time="2018-02-07T16:51:24+11:00" title="Stuck In Orbit {Ft. BUOY}"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="BATS" artist="Cub Sport" duration="00:03:34" imageUrl="http://www.abc.net.au/triplej/albums/56587/covers/190.jpg" status="history"
+                     time="2018-02-07T16:45:01+11:00" title="Good Guys Go" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Beautiful People Will Ruin Your Life" artist="The Wombats" duration="00:03:25" imageUrl="http://www.abc.net.au/triplej/albums/56588/covers/190.jpg"
+                     status="history" time="2018-02-07T16:39:02+11:00" title="Turn"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Real Slow {Single}" artist="Miami Horror" duration="00:04:05" imageUrl="http://www.abc.net.au/triplej/albums/51542/covers/190.jpg" status="history"
+                     time="2018-02-07T16:34:34+11:00" title="Real Slow" type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+        <playoutItem album="Broken Machine {I'm Not Made By Design Single}" artist="Nothing But Thieves" duration="00:03:50" imageUrl="http://www.abc.net.au/triplej/albums/56246/covers/190.jpg"
+                     status="history" time="2018-02-07T16:29:19+11:00" title="I'm Not Made By Design"
+                     type="song">
+            <customFields>
+                <customField name="tracknote" value="" />
+            </customFields>
+        </playoutItem>
+    </playoutData>
+
+</onAir>
