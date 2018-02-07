@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightLarge"
+    >
+
+    <ImageView
+        android:id="@+id/ivTrackImage"
+        android:layout_width="?attr/listPreferredItemHeightLarge"
+        android:layout_height="?attr/listPreferredItemHeightLarge"
+        android:importantForAccessibility="no"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars"
+        />
+
+    <!-- The layout also isn't ideal, e.g. for long titles -->
+    <TextView
+        android:id="@+id/tvTrackTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintLeft_toRightOf="@id/ivTrackImage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvTrackArtist"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.2"
+        tools:text="Living On The 110"
+        />
+
+    <ImageView
+        android:id="@+id/ivPlayingNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#fff"
+        android:contentDescription="@string/cd_playing_now"
+        android:src="@drawable/ic_playing_now"
+        app:layout_constraintBottom_toBottomOf="@id/ivTrackImage"
+        app:layout_constraintRight_toRightOf="@id/ivTrackImage"
+        />
+
+    <TextView
+        android:id="@+id/tvTrackArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintLeft_toLeftOf="@id/tvTrackTitle"
+        app:layout_constraintTop_toBottomOf="@id/tvTrackTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Prophets of Rage"
+        />
+
+    <TextView
+        android:id="@+id/tvTrackLength"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="00:03:48"
+        />
+</android.support.constraint.ConstraintLayout>
