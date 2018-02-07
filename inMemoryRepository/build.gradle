@@ -1,0 +1,2 @@
+rootProject.ext.configureJavaModule(project)
+rootProject.ext.configureDependencies(project)

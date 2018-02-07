@@ -1,0 +1,32 @@
+rootProject.ext.configureAndroidApplication(project)
+
+android {
+    defaultConfig {
+        applicationId "com.tooploox.aimtask"
+
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        debug {
+            storeFile rootProject.file("keystore.jks")
+            storePassword "G3z*umEsU,ieZu,P@xOg"
+            keyAlias "debug"
+            keyPassword "aQ?kv.tneuYifEly1s#e"
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+            applicationIdSuffix ".debug"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+rootProject.ext.configureDependencies(project)

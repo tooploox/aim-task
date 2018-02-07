@@ -1,0 +1,42 @@
+ext.configureDependencies = { project ->
+    project.dependencies {
+        rootProject."${project.name}ModuleDependencies".each {
+            add(it.configuration, it.dependency, it.options)
+        }
+    }
+}
+
+ext.configureAndroidApplication = { project ->
+    project.apply plugin: "com.android.application"
+
+    configureAndroidModule(project)
+}
+
+ext.configureAndroidLibrary = { project ->
+    project.apply plugin: "com.android.library"
+
+    configureAndroidModule(project)
+}
+
+ext.configureJavaModule = { project ->
+    project.apply plugin: "java-library"
+
+    project.sourceCompatibility = JavaVersion.VERSION_1_8
+    project.targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+def configureAndroidModule(project) {
+    project.android {
+        compileSdkVersion rootProject.ext.compileSdkVersion
+
+        defaultConfig {
+            minSdkVersion rootProject.ext.minSdkVersion
+            targetSdkVersion rootProject.ext.targetSdkVersion
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}

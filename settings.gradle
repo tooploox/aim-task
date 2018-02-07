@@ -1,0 +1,4 @@
+include ":app",
+        ":domain",
+        ":inMemoryRepository",
+        ":okHttpGateway"

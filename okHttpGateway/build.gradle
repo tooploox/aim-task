@@ -1,0 +1,4 @@
+rootProject.ext.configureAndroidLibrary(project)
+rootProject.ext.configureDependencies(project)
+
+android.defaultConfig.testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
