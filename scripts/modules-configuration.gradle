@@ -9,6 +9,7 @@ ext.configureDependencies = { project ->
 ext.configureAndroidApplication = { project ->
     project.apply plugin: "com.android.application"
     project.apply plugin: "kotlin-android"
+    project.apply plugin: "kotlin-android-extensions"
 
     configureAndroidModule(project)
 }
