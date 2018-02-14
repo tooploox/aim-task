@@ -64,6 +64,8 @@ ext {
             [configuration: "implementation", dependency: libs.rxBinding],
             [configuration: "implementation", dependency: libs.threeTenAbp],
 
+            [configuration: "compileOnly", dependency: libs.okHttp],
+
             [configuration: "implementation", dependency: libs.glide],
     ]
 

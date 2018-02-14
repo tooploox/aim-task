@@ -9,9 +9,10 @@ import com.tooploox.aimtask.domain.Schedulers
 import com.tooploox.aimtask.domain.UseCaseFactory
 import com.tooploox.aimtask.domain.entity.StationInfo
 import com.tooploox.aimtask.domain.entity.Track
+import com.tooploox.aimtask.domain.entity.common.Optional
+import com.tooploox.aimtask.domain.entity.common.Result
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
-import java.util.ArrayList
 import java.util.Locale
 
 /**
@@ -52,11 +53,13 @@ class MainActivityViewModel(
         compositeDisposable += useCaseFactory.tracks
                 .observeOn(schedulers.uiScheduler)
                 .subscribe { tracks ->
-                    if (tracks.isPresent) {
-                        tracksList = ArrayList(tracks.get())
-                        tracksListUpdated.setValue(OneOffFlag.create())
-                    } else {
-                        refreshScreen()
+                    when (tracks) {
+
+                        is Optional.Value -> {
+                            tracksList = tracks.value
+                            tracksListUpdated.value = OneOffFlag.create()
+                        }
+                        is Optional.Empty -> refreshScreen()
                     }
                 }
     }
@@ -65,10 +68,10 @@ class MainActivityViewModel(
         compositeDisposable += useCaseFactory.stationInfo
                 .observeOn(schedulers.uiScheduler)
                 .subscribe { stationInfo ->
-                    if (stationInfo.isPresent) {
-                        this.stationInfo.setValue(stationInfo.get())
-                    } else {
-                        refreshScreen()
+                    when (stationInfo) {
+
+                        is Optional.Value -> this.stationInfo.value = stationInfo.value
+                        is Optional.Empty -> refreshScreen()
                     }
                 }
     }
@@ -103,12 +106,9 @@ class MainActivityViewModel(
                 .doOnSubscribe { screenRefreshingStatus.setValue(Status.loading()) }
                 .observeOn(schedulers.uiScheduler)
                 .subscribe { result ->
-                    if (result.isSuccessful) {
-                        // Kotlin has Unit for such flags, or a new sealed class entry could easily be added to denote no-value loaded state
-                        screenRefreshingStatus.setValue(Status.loaded(Any()))
-                    } else {
-
-                        screenRefreshingStatus.setValue(Status.error(result.error!!.message))
+                    when (result) {
+                        is Result.Value -> screenRefreshingStatus.value = Status.loaded(Unit)
+                        is Result.Error -> screenRefreshingStatus.value = Status.error(result.throwable.message)
                     }
                 }
     }

@@ -3,7 +3,7 @@ package com.tooploox.aimtask
 import com.tooploox.aimtask.data.gateway.OkHttpDataGateway
 import com.tooploox.aimtask.domain.Schedulers
 import com.tooploox.aimtask.domain.UseCaseFactory
-import com.tooploox.aimtask.platform.repository.ImMemoryDataRepository
+import com.tooploox.aimtask.platform.repository.InMemoryDataRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
 
 /**
@@ -13,7 +13,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 object Injection {
 
     private val dataGateway = OkHttpDataGateway()
-    private val dataRepository = ImMemoryDataRepository()
+    private val dataRepository = InMemoryDataRepository()
 
     val schedulers = Schedulers(AndroidSchedulers.mainThread())
 

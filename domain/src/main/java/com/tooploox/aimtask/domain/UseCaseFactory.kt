@@ -46,15 +46,13 @@ class UseCaseFactory(
      *
      * @return A [Single] that returns successful Result iff the refreshing succeeded.
      */
-    fun refreshStationInfo(): Single<Result<Void>> = Single.fromCallable<Result<Void>> {
+    fun refreshStationInfo(): Single<Result<Unit>> = Single.fromCallable<Result<Unit>> {
         val result = dataGateway.fetchStationInfo()
 
-        if (result.isSuccessful) {
+        if (result is Result.Value) {
             dataRepository.setOnAirInfo(result.value)
-
-            Result.success<Void>()
-        } else {
-            Result.error<Void>(result.error!!)
         }
+
+        result.map { Unit }
     }.subscribeOn(schedulers.tracksListScheduler)
 }
