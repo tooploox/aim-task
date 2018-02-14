@@ -34,7 +34,7 @@ class MainActivityViewModel(
     }
 
     private val compositeDisposable: CompositeDisposable = CompositeDisposable()
-    private val screenRefreshingStatus: MutableLiveData<Status<Any>> = MutableLiveData()
+    private val screenRefreshingStatus: MutableLiveData<Status<Unit>> = MutableLiveData()
 
     val tracksListUpdated: MutableLiveData<OneOffFlag> = MutableLiveData()
     val stationInfo: MutableLiveData<StationInfo> = MutableLiveData()
@@ -103,17 +103,17 @@ class MainActivityViewModel(
     private fun refreshScreen() {
         compositeDisposable += useCaseFactory.refreshStationInfo()
                 .subscribeOn(schedulers.ioScheduler)
-                .doOnSubscribe { screenRefreshingStatus.setValue(Status.loading()) }
+                .doOnSubscribe { screenRefreshingStatus.setValue(Status.Loading()) }
                 .observeOn(schedulers.uiScheduler)
                 .subscribe { result ->
                     when (result) {
-                        is Result.Value -> screenRefreshingStatus.value = Status.loaded(Unit)
-                        is Result.Error -> screenRefreshingStatus.value = Status.error(result.throwable.message)
+                        is Result.Value -> screenRefreshingStatus.value = Status.Loaded(Unit)
+                        is Result.Error -> screenRefreshingStatus.value = Status.Error(result.throwable.message!!)
                     }
                 }
     }
 
-    fun getScreenRefreshingStatus(): LiveData<Status<Any>> = screenRefreshingStatus
+    fun getScreenRefreshingStatus(): LiveData<Status<Unit>> = screenRefreshingStatus
 
     override fun onCleared() {
         compositeDisposable.clear()

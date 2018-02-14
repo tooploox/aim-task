@@ -49,10 +49,10 @@ class MainActivity : AppCompatActivity() {
         render { stationInfo } with ::renderStationInfo
     }
 
-    private fun renderScreenRefreshingStatus(status: Status<Any>) {
-        srlMain.isRefreshing = status.isLoading
+    private fun renderScreenRefreshingStatus(status: Status<Unit>) {
+        srlMain.isRefreshing = status is Status.Loading
 
-        if (status.isError) {
+        if (status is Status.Error) {
             Toast.makeText(this, status.errorMessage, Toast.LENGTH_SHORT).show()
         }
     }
