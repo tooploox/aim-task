@@ -5,9 +5,9 @@ ext {
     supportLibVersion = "27.0.2"
     rxJavaVersion = "2.1.9"
 
-    // region Libraries
-
     libs = [
+            kotlinStdLib         : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion",
+
             appCompat            : "com.android.support:appcompat-v7:$supportLibVersion",
             design               : "com.android.support:design:$supportLibVersion",
             cardView             : "com.android.support:cardview-v7:$supportLibVersion",
@@ -68,9 +68,10 @@ ext {
     ]
 
     domainModuleDependencies = [
-            [configuration: "api", dependency: libs.rxJava],
-            [configuration: "api", dependency: libs.threeTenBpNoTzDb],
-            [configuration: "api", dependency: libs.jsr305]
+            [configuration: "compile", dependency: libs.kotlinStdLib],
+            [configuration: "compile", dependency: libs.rxJava],
+            [configuration: "compile", dependency: libs.threeTenBpNoTzDb],
+            [configuration: "compile", dependency: libs.jsr305]
     ]
 
     inMemoryRepositoryModuleDependencies = [

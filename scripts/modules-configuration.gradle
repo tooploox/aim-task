@@ -8,18 +8,20 @@ ext.configureDependencies = { project ->
 
 ext.configureAndroidApplication = { project ->
     project.apply plugin: "com.android.application"
+    project.apply plugin: "kotlin-android"
 
     configureAndroidModule(project)
 }
 
 ext.configureAndroidLibrary = { project ->
     project.apply plugin: "com.android.library"
+    project.apply plugin: "kotlin-android"
 
     configureAndroidModule(project)
 }
 
 ext.configureJavaModule = { project ->
-    project.apply plugin: "java-library"
+    project.apply plugin: "kotlin"
 
     project.sourceCompatibility = JavaVersion.VERSION_1_8
     project.targetCompatibility = JavaVersion.VERSION_1_8
